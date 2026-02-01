@@ -67,4 +67,8 @@ button:active {
     color:rgb(121, 104, 13);
     font-weight: bold;
     text-decoration: none;
+    transition: all 0.1s ease-in-out;
+}
+#display-url li a:hover {
+    padding: 2px;
 }

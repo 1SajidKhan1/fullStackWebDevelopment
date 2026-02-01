@@ -27,11 +27,11 @@ function saveInput() {
 console.log("Hello");
 
 function saveTab() {
-    chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
-        let activeTab = tabs[0];
-        let activeTabUrl = activeTab.url;
-        displayUrl.innerHTML += "<li><a href=" + activeTabUrl + " target='_blank'> " + activeTabUrl + "</a></li>";
-    });
+    chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
+        myLeads.push(tabs[0].url);
+        localStorage.setItem("myLeads", JSON.stringify(myLeads));
+        renderLeads();
+    })
 }
 
 function deleteAll() {
