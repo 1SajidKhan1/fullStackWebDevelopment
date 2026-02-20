@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="99" height="99" viewBox="0 0 1000 1000">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #969696;
+        stroke: #000;
+        stroke-width: 1px;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Triangle_1" data-name="Triangle 1" class="cls-1" d="M997.233,495.516a5,5,0,0,1,0,8.937L7.243,1001.44A5,5,0,0,1,0,996.975V2.994A5,5,0,0,1,7.243-1.475Z"/>
+</svg>
