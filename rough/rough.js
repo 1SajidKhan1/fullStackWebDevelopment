@@ -1,10 +1,11 @@
-let price = 329.1349382348372;
-const buyBtn = document.querySelector("#buy-btn");
+import {itemsBoughtArr} from './itemsBoughtArr.js'
 
-buyBtn.addEventListener("click", buttonClicked);
-
-function buttonClicked() {
-    alert("Clicked the button");
+let total = 0;
+const calculationTotalCost = itemsBoughtArr => {
+    for (let i=0; i<itemsBoughtArr.length; i++) {
+        total += itemsBoughtArr[i].priceUSD
+    }
+    return total
 }
 
-buyBtn.textContent = `Buy $${Number(price).toFixed(2)}`;
+console.log(calculationTotalCost(itemsBoughtArr).toFixed(2) + "$");
