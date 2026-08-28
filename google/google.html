@@ -4,45 +4,35 @@
 
 <head>
     <title>Google</title>
-    <link rel="icon" href="../2) images/google-icon.png">
+    <link rel="icon" href="../2-images/google.png">
 
     <link rel="stylesheet" href="google.css">
 </head>
 
 <body>
     <header>
-        <ul>
-            <li>About</li>
-            <li>Store</li>
-        </ul>
-
-        <ul>
-            <li>Gmail</li>
-            <li>Images</li>
-            <li id="google-apps-icon">
-                <div class="google-apps"></div>
-                <div class="google-apps"></div>
-                <div class="google-apps"></div>
-                <div class="google-apps"></div>
-                <div class="google-apps"></div>
-                <div class="google-apps"></div>
-                <div class="google-apps"></div>
-                <div class="google-apps"></div>
-                <div class="google-apps"></div>
-            </li>
-            <li>
-                <button>Sign Up</button>
-            </li>
-        </ul>
+        <div class="left-section">
+            <a href="#">About</a>
+            <a href="#">Store</a>
+        </div>
+        <div class="right-section">
+            <a href="#">Gmail</a>
+            <a href="#">Images</a>
+            <a href="#" class="google-apps"><img src="../2-images/google-apps.png" alt="Google Apps"></a>
+            <a href="#">Sign Up</a>
+        </div>
     </header>
 
-    <main></main>
+    <main>
+        <h1>Google</h1>
+        <form action="search">
+            <a href="#"><img src="../2-images/add.png" alt="add"></a>
+            <input type="text" id="search">
+            
+        </form>
+    </main>
 
     <footer></footer>
-
-    <form action="https://www.google.com/search">
-        <input type="text" id="search-box" name="q">
-    </form>
 </body>
 
 </html>

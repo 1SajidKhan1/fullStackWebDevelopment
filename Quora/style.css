@@ -1,0 +1,33 @@
+* {
+    /* margin: 0; */
+    /* padding: 0; */
+    box-sizing: border-box;
+}
+
+header h1 {
+    color: #b92b27;
+}
+#login-btn, #signup-btn {
+    background-color: #b92b27;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8px 16px;
+}
+
+input {
+    padding: 5px 16px;
+    font-size: 15px;
+    border: 1px solid rgb(187, 187, 187);
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(85, 83, 83);
+}

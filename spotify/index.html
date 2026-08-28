@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="icon" href="assets/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+        integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <a href="#"><img src="assets/home.png">Home</a>
+                <a href="#"><img src="assets/search.png">Search</a>
+            </nav>
+            <div class="library">
+                <div class="title">
+                    <h3>
+                        <img src="assets/library_icon.png">
+                        Your Library
+                    </h3>
+                    <img src="assets/add.png">
+                </div>
+                <div class="create-playlist">
+                    <h3>Create your first playlist</h3>
+                    <p>It's easy, we'll help you</p>
+                    <button>Create playlist</button>
+                </div>
+                <div class="browse-podcasts">
+                    <h3>Let's find some podcasts to follow</h3>
+                    <p>We'll keep you updated on new episodes</p>
+                    <button>Browse podcasts</button>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="top-section">
+                <div class="top-left-section"><img src="assets/backward_icon.png"></div>
+                <div class="top-right-section">
+                    <button>
+                        <img src="assets/downloading.png">
+                        Install App
+                    </button>
+                    <div class="profile">
+                        <img src="assets/user.png">
+                    </div>
+                </div>
+            </div>
+            <div class="recently-played">
+                <h2>Recently played</h2>
+                <div class="card">
+                    <img src="assets/card1img.jpeg">
+                    <h4>Top 50 - Global</h4>
+                    <p>Your daily updates of the most played tracks righ here</p>
+                </div>
+            </div>
+            <div class="podcasts">
+                <h2>Spotify original & exclusive podcasts</h2>
+                <div class="podcasts-container">
+                    <div class="card">
+                        <img src="assets/card2img.jpeg">
+                        <h4>text</h4>
+                        <p>text</p>
+                    </div>
+                    <div class="card">
+                        <img src="assets/card3img.jpeg">
+                        <h4>text</h4>
+                        <p>text</p>
+                    </div>
+                    <div class="card">
+                        <img src="assets/card4img.jpeg">
+                        <h4>text</h4>
+                        <p>text</p>
+                    </div>
+                    <div class="card">
+                        <img src="assets/card5img.jpeg">
+                        <h4>text</h4>
+                        <p>text</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <footer>
+        <div class="left-section">
+            <img src="assets/card3img.jpeg">
+            <div class="info">
+                <h3>die 4 u</h3>
+                <p>Hayley Kiyoko, Young Miko</p>
+            </div>
+        </div>
+        <div class="middle-section">
+            <div class="top">
+                <i class="fa-solid fa-shuffle"></i>
+                <i class="fa-solid fa-backward-step"></i>
+                <i class="fa-solid fa-circle-play"></i>
+                <i class="fa-solid fa-forward-step"></i>
+                <i class="fa-solid fa-repeat"></i>
+            </div>
+            <div class="bottom">
+                <div class="playing-time">1:35</div>
+                <input type="range" class="timeline">
+                <div class="total-time">2:49</div>
+            </div>
+        </div>
+        <div class="right-section">
+            <i class="fa-solid fa-microphone-stand"></i>
+            <i class="fa-solid fa-layer-group"></i>
+            <i class="fa-solid fa-computer-speaker"></i>
+            <i class="fa-solid fa-volume"></i>
+            <input type="range" class="volume">
+            <i class="fa-solid fa-picture-in-picture"></i>
+            <i class="fa-solid fa-expand"></i>
+        </div>
+    </footer>
+</body>
+
+</html>
