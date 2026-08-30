@@ -1,0 +1,303 @@
+* {
+   margin: 0px;
+   padding: 0px;
+   font-family: Montserrat, sans-serif;
+   color: white;
+}
+
+body {
+   background-color: #0f0f0f;
+   height: 100vh;
+
+   display: flex;
+   flex-direction: column;
+}
+
+header {
+   position: fixed;
+   top: 0px;
+   right: 0px;
+   left: 0px;
+   height: 3.5rem;
+
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+
+   padding: 0 1rem;
+}
+
+header .left {
+   display: flex;
+   align-items: center;
+}
+
+header .left i {
+   font-size: 1.2rem;
+
+   padding: 0.4rem;
+
+   border-radius: 50%;
+
+   transition: all 0.1s linear;
+   cursor: pointer;
+}
+
+header .left i:hover {
+   background-color: #2e2e2e;
+}
+
+.youtube-logo {
+   display: flex;
+   align-items: center;
+   column-gap: 0.2rem;
+
+   margin: 0 1rem;
+}
+
+.youtube-logo h1 {
+   font-family: Poppins;
+   font-weight: 400;
+   font-size: 1.3rem;
+}
+
+.youtube-logo img {
+   height: 1.8rem;
+}
+
+.youtube-logo sup {
+   font-size: 0.7rem;
+}
+
+header .middle {
+   font-size: 1.5rem;
+
+   flex: 0.7;
+   display: flex;
+   align-items: center;
+   column-gap: 0.5rem;
+}
+
+.search-box {
+   flex: 1;
+   display: flex;
+   align-items: center;
+
+   border-style: solid;
+   border-color: #2e2e2e;
+   border-width: 1px;
+   border-radius: 100px;
+}
+
+.search-box input {
+   flex: 1;
+
+   background-color: #121212;
+   height: 100%;
+   color: black;
+   font-size: 1rem;
+
+   border: none;
+   border-right: 1px solid #2e2e2e;
+   border-top-left-radius: 100px;
+   border-bottom-left-radius: 100px;
+
+   padding: 0.4rem 1.2rem;
+}
+
+.voice-search-icon {
+   background-color: #2e2e2e;
+
+   padding: 0.4rem;
+
+   border-radius: 50%;
+
+   cursor: pointer;
+   transition: all 0.1s linear;
+}
+.voice-search-icon:hover {
+   opacity: 0.8;
+}
+
+.search-box i {
+   padding: 0.4rem 1.2rem;
+
+   background-color: #2e2e2e;
+
+   border-top-right-radius: 100px;
+   border-bottom-right-radius: 100px;
+
+   cursor: pointer;
+   transition: all 0.1s linear;
+}
+
+.search-box i:hover {
+   opacity: 0.8;
+}
+
+
+header .right {
+   display: flex;
+   align-items: center;
+   column-gap: 0.5rem;
+}
+
+.settings {
+   font-size: 1.2rem;
+
+   padding: 0.5rem;
+
+   border-radius: 50%;
+
+   cursor: pointer;
+   transition: all 0.1s linear;
+}
+
+.settings:hover {
+   background-color: #2e2e2e;
+}
+
+header .right button, .sign-in-box button {
+   background-color: #0f0f0f;
+
+   display: flex;
+   align-items: center;
+   column-gap: 0.3rem;
+
+   padding: 0.7rem 1rem;
+
+   border: 1px solid #2e2e2e;
+   border-radius: 100px;
+
+   cursor: pointer;
+   transition: all 0.1s linear;
+}
+
+header .right button:hover {
+   background-color: #3da0f642;
+}
+
+.sign-in-box button:hover {
+   background-color: #3da0f642;
+}
+
+header .right button p, .sign-in-box button p {
+   color: #3da0f6;
+   font-weight: 600;
+}
+
+main {
+   flex: 1;
+   display: flex;
+
+   margin-top: 3.5rem;
+
+   overflow: hidden;
+}
+
+main .left {
+   width: 14.38rem;
+
+   display: flex;
+   flex-direction: column;
+
+   overflow: auto;
+
+   padding: 1rem;
+}
+
+main .left i {
+   font-size: 1.4rem;
+}
+
+main .left ul {
+   padding: 0.5rem 0;
+}
+
+main .left ul li, .report-history {
+   display: flex;
+   align-items: center;
+   column-gap: 0.3rem;
+
+   padding: 0.8rem;
+
+   border-radius: 0.5rem;
+
+   cursor: pointer;
+   transition: all 0.1s linear;
+}
+
+main .left ul li:hover {
+   background-color: #2e2e2e;
+}
+
+.report-history:hover {
+   background-color: #2e2e2e;
+}
+
+main .left hr {
+   margin: 1.2rem 0;
+}
+
+.sign-in-box {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   row-gap: 1rem;
+}
+
+.more-from-youtube img {
+   height: 1.8rem;
+}
+
+footer {
+   display: flex;
+   flex-direction: column;
+   row-gap: 1rem;
+}
+
+footer a {
+   text-decoration: none;
+   color: #dbdbdb;
+   font-weight: 500;
+   font-size: 0.9rem;
+
+   cursor: pointer;
+   transition: all 0.1s linear;
+}
+
+footer a:hover {
+   color: #fff;
+}
+
+footer .top, footer .middle, footer .bottom {
+   padding: 1rem;
+}
+
+main .right {
+   flex: 1;
+}
+
+.get-started {
+   background-color: #2e2e2e;
+
+   border: 1px solid #5c5c5c;
+
+   width: 60%;
+
+   margin: 2rem auto;
+   padding: 2rem;
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   row-gap: 1rem;
+
+   border-radius: 0.8rem;
+}
+
+.get-started p {
+   font-size: 0.9rem;
+   color: rgb(207, 207, 207);
+}
